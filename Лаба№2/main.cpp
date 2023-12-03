@@ -120,6 +120,7 @@ int task2() {
 
 int main() {
 	setlocale(LC_ALL, "Russian");
+	string filename;
 	string menu = "Меню:\n1 - Первое задание\n2 - Второе задание\n0 - Завершение работы\n>";
 	int knopka;
 	bool mode = true;
@@ -137,7 +138,8 @@ int main() {
 			system("pause");
 			break;
 		case 2:
-			cout << "jhdsgfjhsdgfjhsdjhfgjhsdgfjhgsdf" << endl;
+			
+			task2();
 			system("pause");
 			break;
 		case 0:
