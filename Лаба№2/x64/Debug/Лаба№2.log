@@ -1,5 +1,1 @@
-﻿  main.cpp
-C:\Users\Антон\repos_c\Лаба№2\Лаба№2\Лаба№2\main.cpp(97,15): error C2440: =: невозможно преобразовать "std::string *" в "char"
-C:\Users\Антон\repos_c\Лаба№2\Лаба№2\Лаба№2\main.cpp(97,11): message : Не существует контекста, в котором такое преобразование возможно
-  students.cpp
-  Создание кода...
+﻿LINK : fatal error LNK1168: не удается открыть C:\Users\ntnef\source\repos\laba25sem\Laba2TP_5sem\x64\Debug\Лаба№2.exe для записи
