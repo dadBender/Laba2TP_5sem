@@ -155,27 +155,3 @@ int main() {
 	}
 	return 0;
 }
-
-
-
-int countShortWords(const string& filename) {
-	ifstream file(filename); // Открытие файла для чтения
-
-	if (!file) {
-		cout << "Ошибка открытия файла!" << std::endl;
-		return 0;
-	}
-
-	string word;
-	int count = 0;
-
-	while (file >> word) {
-		if (word.length() <= 4) {
-			count++;
-		}
-	}
-
-	file.close(); // Закрытие файла
-
-	return count;
-}
