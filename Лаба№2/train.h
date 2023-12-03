@@ -37,4 +37,14 @@ public:
 
 	friend ostream& operator << (ostream& out, TRAIN& obj); //Перегрузка вывода
 	friend istream& operator >> (istream& in, TRAIN& obj);  //Перегрузка ввода
+
+	string getDestination();
+	string getTrain_number();
+	int getDeparture_time_hours();
+	int getDeparture_time_minutes();
+
+	void setDestination(string destination);
+	void setTrain_number(string train_number);
+	void setDeparture_time_hours(int departure_time_hours);
+	void setDeparture_time_minutes(int departure_time_minutes);
 };

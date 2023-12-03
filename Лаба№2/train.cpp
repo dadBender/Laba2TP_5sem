@@ -41,6 +41,50 @@ void TRAIN::push() {
 	cout << endl << endl << "Новый объект добавлен" << endl << endl;
 }
 
+
+//string getDestination();
+//string getTrain_number();
+//int getDeparture_time_hours();
+//int getDeparture_time_minutes();
+//
+//void setDestination(string destination);
+//void setTrain_number(string train_number);
+//void setDeparture_time_hours(int departure_time_hours);
+//void setDeparture_time_minutes(int departure_time_minutes);
+
+
+string TRAIN::getDestination() {
+	return this->destination;
+}
+
+string TRAIN::getTrain_number() {
+	return this->train_number;
+}
+
+int TRAIN::getDeparture_time_hours() {
+	return this->departure_time_hours;
+}
+
+int TRAIN::getDeparture_time_minutes() {
+	return this->departure_time_minutes;
+}
+
+void TRAIN::setDestination(string destination) {
+	this->destination = destination;
+}
+
+void TRAIN::setTrain_number(string train_number) {
+	this->train_number = train_number;
+}
+
+void TRAIN::setDeparture_time_hours(int departure_time_hours) {
+	this->departure_time_hours = departure_time_hours;
+}
+
+void TRAIN::setDeparture_time_minutes(int departure_time_minutes) {
+	this->departure_time_minutes = departure_time_minutes;
+}
+
 void TRAIN::pop(int num) {
 	try {
 		if (size == 0) {
